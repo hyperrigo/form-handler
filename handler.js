@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Получаем chat_id из Google Sheets
-    fetch("https://script.google.com/macros/s/AKfycbyUeKGjipUlt8klhj3dMf-q0WZBzUSICz9cIypIwc4K86Z-RFIFuKTKb1O28SHSyFdvaw/exec")
+    fetch("https://script.google.com/macros/s/AKfycbzWCrgMMEkMHHhmj9g5DETl-nXKlBGroLS4LVlyxAs2S876--PwEDrcqD4rQon94E8LMA/exec")
       .then(res => {
         if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
         return res.json();
