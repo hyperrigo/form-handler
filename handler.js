@@ -1,4 +1,3 @@
-<script>
   document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById("bookingModal");
     const closeBtn = document.querySelector(".close");
@@ -111,4 +110,3 @@
           alert("Сервер недоступен. Попробуйте позже.");
         });
     });
-</script>
